@@ -15,7 +15,7 @@ org.hibernate.LazyInitializationException: failed to lazily initialize a collect
 - 처음 사용될 때 한 번만 초기화 됨
 
 ## 해결
-FetchType을 Eager로 변경
+FetchType을 Eager로 변경  
 `@Transactional` 어노테이션 붙이기
 
 
