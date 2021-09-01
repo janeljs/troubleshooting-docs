@@ -24,6 +24,7 @@ JoinColumn을 정의해주고 OnDelete 어노테이션을 추가하여 해결하
 
 
 ---
+- https://stackoverflow.com/questions/2076644/strange-jpa-behaviour-initialized-field-is-null
 - https://stackoverflow.com/questions/7695831/how-can-i-cascade-delete-a-collection-which-is-part-of-a-jpa-entity
 - https://pinokio0702.tistory.com/183
 - https://github.com/spring-projects/spring-data-jpa/issues/1100
