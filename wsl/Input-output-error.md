@@ -1,4 +1,4 @@
-## 문제 상황
+## 문제
 - VS Code를 실행하려는데 아래 에러 발생
 ```
 Input/output error
