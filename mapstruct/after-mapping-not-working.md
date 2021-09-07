@@ -20,10 +20,6 @@ public interface CarMapper {
 
 
 ## 해결
-> MapStruct also supports mapping of immutable types via builders. When performing a mapping
-MapStruct checks if there is a builder for the type being mapped. This is done via the
-BuilderProvider SPI. If a Builder exists for a certain type, then that builder will be used for the
-mappings.
 
 ```java
 @Mapper
