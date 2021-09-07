@@ -1,4 +1,4 @@
-## 문제
+## 문제 상황
 ```
 Permission "artifactregistry.repositories.downloadArtifacts" denied 
 on resource "projects/janeljs-docker-registry/locations/asia-northeast3/repositories/portfolio" (or it may not exist)
