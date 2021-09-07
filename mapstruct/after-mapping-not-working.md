@@ -40,6 +40,10 @@ public interface UserMapper {
 }
 ```
 - Builder를 매개변수로 받아야 한다.
+- 정확히는 `@AfterMapping`이 아닌 `@MappingTarget`이 문제였다. 
+`@MapingTarget`에 업데이트하고 싶은 객체를 지정할 수 있는데 객체에 맵핑된 빌더가 있을 경우 빌더가 맵핑에 사용되어 빌더를 받아줘야 한다.
+
+> MapStruct also supports mapping of immutable types via builders. When performing a mapping MapStruct checks if there is a builder for the type being mapped. This is done via the BuilderProvider SPI. If a Builder exists for a certain type, then that builder will be used for the mappings.
 
 ---
 
