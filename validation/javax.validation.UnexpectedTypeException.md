@@ -1,4 +1,4 @@
-## 문제 상황
+## 문제
 ```
 javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.NotEmpty' validating type 'com.postsquad.scoup.web.auth.OAuthType'. Check configuration for 'oAuthType'
 	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
