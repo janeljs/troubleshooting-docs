@@ -1,4 +1,4 @@
-## 문제 상황
+## 문제
 
 ```java
     @AfterMapping
